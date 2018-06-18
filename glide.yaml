@@ -1,0 +1,12 @@
+package: auth
+import:
+- package: github.com/stretchr/testify
+  version: ~1.2.2
+- package: google.golang.org/grpc
+  version: ~1.12.2
+- package: github.com/labstack/echo
+  version: ~3.3.5
+  subpackages:
+  - '...'
+- package: github.com/go-zoo/bone
+  version: ~1.2.0
